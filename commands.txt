@@ -1,0 +1,48 @@
+we can find which directory we are currently using by typing "pwd"
+it stands for print working directory.
+
+The "ls" command lists all the visible files in our current directory.
+
+If we want to see all files including hidden files, we can run ls with the -la flag.
+
+'cd' stands for change directory.
+
+'cd..' will bring us back up one level in reverse.
+
+directories are written in bold text.
+files are shown in regular text.
+
+/////////////////////////////////////////////////////
+
+Working with files and folders.
+
+'touch' command has a parameter.
+touch hello.txt
+
+it allows you to create files from the terminal.
+
+touch new.txt
+
+/////////////////////////////////////////////////////
+
+the 'rm' command allows us to remove or delete files from the system.
+
+rm new.txt
+
+/////////////////////////////////////////////////////
+
+the 'mkdir' will make a new directory
+
+mkdir mydirectory
+
+/////////////////////////////////////////////////////
+
+the 'cp' command takes two parameters.
+It is short for copy.
+
+it takes the file name and the destination in that order.
+
+cp hello.txt mydirectory
+
+
+
