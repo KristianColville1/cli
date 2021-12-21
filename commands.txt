@@ -70,3 +70,5 @@ use 'diff'
 diff hello.txt world.txt
 
 /////////////////////////////////////////////////////
+
+'git status' shows us the current status of the repo.
