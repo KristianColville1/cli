@@ -91,3 +91,9 @@ git commit -m "Initial Commit"  Adds commit to github
 'git add . '                    Adds multiple files to staging area
 
 git rm --cached 'file name'     removes files from staging area
+
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+MORE GIT COMMANDS
+
+
