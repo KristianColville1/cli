@@ -94,3 +94,8 @@ MORE GIT COMMANDS
                                 use 'p' to exit git log
 
 'git reset --hard (SHA)'        enter first 6 digits of sha number and revert back changes.
+                                make changes to file and merge it to complete
+
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+GIT IGNORE FILE - how does it work? :)
