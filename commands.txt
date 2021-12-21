@@ -76,12 +76,13 @@ diff hello.txt world.txt
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
+USING THE COMMAND LINE TO COMMIT CHANGES ETC.
 
 echo "hello" >> story.txt
-Creates new file with this txt
+Creates new file with this txt  
 
 git add story.txt
-Creates git to be commited
+Creates git to be commited      (make sure changes saved)
 
 git commit -m "Initial Commit"
 Adds commit to github
