@@ -89,3 +89,8 @@ git rm --cached 'file name'     removes files from staging area
 MORE GIT COMMANDS
 
 'git diff '                     shows the difference between changes to a file
+
+'git log'                       lists the commits that have been made, msgs, dates, and author
+                                use 'p' to exit git log
+
+'git reset --hard (SHA)'        enter first 6 digits of sha number and revert back changes.
