@@ -13,75 +13,67 @@ directories are written in bold text.
 files are shown in regular text.
 
 /////////////////////////////////////////////////////
+WORKING WITH FILES AND FOLDERS
 
-Working with files and folders.
-
-'touch' command has a parameter.
+'touch'                             command has a parameter.
 touch hello.txt
 
-it allows you to create files from the terminal.
-
-touch new.txt
+touch new.txt                       it allows you to create files from the terminal.
 
 /////////////////////////////////////////////////////
-
-the 'rm' command allows us to remove or delete files from the system.
+'rm'                                command allows us to remove or delete files from the system.
 
 rm new.txt
 
- we can also use the rm command to delete an entire directory.
-To do that we type "rm” and then we use the “-rf” flag, and then
- type the folder name, in our case “mydirectory”.
+                                    we can also use the rm command to delete an entire directory.
+                                    To do that we type "rm” and then we use the “-rf” flag, and then
+                                    type the folder name, in our case “mydirectory”.
 /////////////////////////////////////////////////////
 
-the 'mkdir' will make a new directory
+'mkdir'                             will make a new directory
 
 mkdir mydirectory
 
 /////////////////////////////////////////////////////
 
-the 'cp' command takes two parameters.
-It is short for copy.
+'cp'                                the  command takes two parameters.
+                                    It is short for copy.
 
-it takes the file name and the destination in that order.
+                                    it takes the file name and the destination in that order.
 
 'cp hello.txt mydirectory'
 
 /////////////////////////////////////////////////////
 
-'mv hello.txt mydirectory' will move files to chosen area
-it takes the file name and the destination in that order.
+'mv hello.txt mydirectory'          will move files to chosen area
+                                    it takes the file name and the destination in that order.
 
 /////////////////////////////////////////////////////
 
-'nano'  This will open up the Nano text editor.
+'nano'                              This will open up the Nano text editor.
 
-'ctrl x ' will save the file, and then 'Y' to confirm and enter the name and press 'enter'
-
-/////////////////////////////////////////////////////
-
-'cat' hello.txt will print out the contents of the file to the terminal
+'ctrl x '                           will save the file, and then 'Y' to confirm and enter the name and press 'enter'
 
 /////////////////////////////////////////////////////
 
-to compare txt files you need to have two files to compare
-use 'diff' 
-
-diff hello.txt world.txt
-
-the result indicates the line difference
+'cat' hello.txt                     will print out the contents of the file to the terminal
 
 /////////////////////////////////////////////////////
 
-'git status' shows us the current status of the repo.
+use 'diff'                          to compare txt files you need to have two files to compare
+
+
+diff hello.txt world.txt            the result indicates the line difference
+/////////////////////////////////////////////////////
+
+'git status'                        shows us the current status of the repo.
 
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
 USING THE COMMAND LINE TO COMMIT CHANGES ETC.
 
-echo "hello" >> story.txt
-Creates new file with this txt  
+echo "hello" >> story.txt       Creates new file with this txt  
 
 git add story.txt               git add 'file name' will add it to staging area
 Creates git to be commited      (make sure changes saved)
@@ -96,4 +88,4 @@ git rm --cached 'file name'     removes files from staging area
 /////////////////////////////////////////////////////
 MORE GIT COMMANDS
 
-
+'git diff '                     shows the difference between changes to a file
