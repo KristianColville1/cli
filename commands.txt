@@ -81,8 +81,10 @@ USING THE COMMAND LINE TO COMMIT CHANGES ETC.
 echo "hello" >> story.txt
 Creates new file with this txt  
 
-git add story.txt
+git add story.txt               git add 'file name' will add it to staging area
 Creates git to be commited      (make sure changes saved)
 
 git commit -m "Initial Commit"
 Adds commit to github
+
+'git add . '                      Adds multiple files to staging area
