@@ -69,6 +69,8 @@ use 'diff'
 
 diff hello.txt world.txt
 
+the result indicates the line difference
+
 /////////////////////////////////////////////////////
 
 'git status' shows us the current status of the repo.
@@ -84,7 +86,8 @@ Creates new file with this txt
 git add story.txt               git add 'file name' will add it to staging area
 Creates git to be commited      (make sure changes saved)
 
-git commit -m "Initial Commit"
-Adds commit to github
+git commit -m "Initial Commit"  Adds commit to github
 
-'git add . '                      Adds multiple files to staging area
+'git add . '                    Adds multiple files to staging area
+
+git rm --cached 'file name'     removes files from staging area
